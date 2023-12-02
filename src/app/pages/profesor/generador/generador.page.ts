@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { Router } from '@angular/router';
-import { QRCodeModule } from "angularx-qrcode";
 
 
 @Component({
@@ -11,10 +10,9 @@ import { QRCodeModule } from "angularx-qrcode";
   templateUrl: './generador.page.html',
   styleUrls: ['./generador.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, QRCodeModule]
+  imports: [IonicModule, CommonModule, FormsModule]
 })
 export class GeneradorPage implements OnInit {
-
 
   userInfoReceived: any;
   qrGenerado: any;
@@ -33,6 +31,8 @@ export class GeneradorPage implements OnInit {
     console.log("userInfoReceived", this.userInfoReceived )
     this.qrGenerado = this.userInfoReceived.id;
     console.log("qrGenerado Id", this.qrGenerado )
+
+    
 
 
     
