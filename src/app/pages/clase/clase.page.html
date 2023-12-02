@@ -1,0 +1,66 @@
+<ion-content [fullscreen]="true" class="ion-padding"  >
+  <ion-header >
+    <ion-toolbar>
+      <ion-title size="large">Ingreso de clase </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-grid>
+    
+    <ion-row> 
+      <ion-col id="col1" sizeLg="12" sizeMD="12" sizeXs="12" >
+
+        
+      </ion-col >
+      <ion-col sizeLg="12" sizeMD="12" sizeXs="12" >
+        <div id="div-fondo" >
+          <div>
+            <div class="nuevo">
+              <form >
+                <div class="encuesta">
+                  <ion-input type="date" id="fecha" name="fecha" label="fecha"  label-placement="floating" fill="solid" placeholder="fecha"  required > </ion-input>
+                  <br>
+                </div>
+                <div class="encuesta">
+                  <ion-input type="text" id="sala" name="sala" label="sala" label-placement="floating" fill="solid" placeholder="sala"  required > </ion-input>
+                  <br>
+                </div>
+                <div class="encuesta">
+                  <ion-select placeholder="tipo Asignatura  " type="text" id="type" name="type"  required >
+                    <div slot="label">Tipo de usuario<ion-text color="danger">(Requerido)</ion-text></div>
+                    <ion-select-option value="Pasajero">matematicas</ion-select-option>
+                    <ion-select-option value="Conductor">lenguaje</ion-select-option>
+                    <ion-select-option value="Conductor">ingles</ion-select-option>
+                    <ion-select-option value="Conductor">historia</ion-select-option>
+                  </ion-select>
+                <br>
+              </div>
+                <div class="encuesta">
+                  <ion-input type="text" id="qr" name="qr" label="qr" label-placement="floating" fill="solid" placeholder="destino"  required > </ion-input>
+                  <br>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div>
+            <!--
+              Navigación con una función.
+            -->
+            <ion-button expand="block" color="dark"  >
+              volver inicio
+            </ion-button>
+            <ion-button expand="block" color="dark" >
+              Agregar Viaje
+            </ion-button>
+         
+       
+          </div>
+        </div>
+    
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+
