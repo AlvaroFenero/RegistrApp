@@ -3,20 +3,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh; /* Ajusta la altura según sea necesario */
+    height: 80vh; /* Ajusta la altura según sea necesario */
     text-align: center; /* Centrar el contenido horizontalmente */
   }
   
   .center-content {
     width: 80%; /* Ajusta el ancho según sea necesario */
-    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+    
     margin: 0 auto; /* Centra horizontalmente dentro del contenedor padre */
   }
   
   .logo-img {
     width: 200px; /* Ajusta el ancho según sea necesario */
     height: auto; /* Para mantener la proporción de la imagen */
-    margin-bottom: 50px; /* Ajusta el margen inferior según sea necesario */
+    margin-bottom: 80px; /* Ajusta el margen inferior según sea necesario */
   }
   
   .center-content ion-input {
