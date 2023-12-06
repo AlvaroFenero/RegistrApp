@@ -1,0 +1,31 @@
+ion-content {
+    --background: #f0f0f0; /* Color de fondo para ion-content */
+  }
+  
+  ion-toolbar {
+    --background: #333; /* Color de fondo para la barra de herramientas */
+    --color: white; /* Color de texto para la barra de herramientas */
+  }
+  
+  ion-title {
+    font-size: 1.5rem; /* Tamaño del texto del título */
+  }
+  
+  #div-fondo {
+    background-color: #fff; /* Color de fondo para el contenedor principal */
+    padding: 20px; /* Ajusta el espacio interno según sea necesario */
+    border-radius: 10px; /* Bordes redondeados para el contenedor principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor principal */
+  }
+  
+  .nuevo {
+    margin-bottom: 20px; /* Espacio inferior entre el formulario y los botones */
+  }
+  
+  .encuesta {
+    margin-bottom: 15px; /* Espacio inferior entre cada campo del formulario */
+  }
+  
+  ion-button {
+    margin-top: 15px; /* Espacio superior entre los botones */
+  }

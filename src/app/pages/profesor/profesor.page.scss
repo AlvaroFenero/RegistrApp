@@ -1,0 +1,36 @@
+/* styles.scss o tu archivo de estilos personalizado */
+
+.glass-content {
+    background-color: #f0f0f0; /* Fondo gris pálido para el contenedor */
+    padding: 20px; /* Ajusta el espacio interno según sea necesario */
+    border-radius: 10px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
+  }
+  
+  .center-content {
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  ion-list {
+    margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+  }
+  
+  ion-list-header {
+    background-color: #ddd; /* Fondo gris para el encabezado de la lista */
+    font-weight: bold; /* Texto del encabezado en negrita */
+  }
+  
+  ion-item {
+    border: 1px solid #ccc; /* Bordes para separar los elementos de la lista */
+    margin-bottom: 10px; /* Espacio inferior entre elementos de la lista */
+  }
+  
+  ion-label {
+    font-weight: bold; /* Texto de etiquetas en negrita */
+    color: #333; /* Color de texto más oscuro */
+  }
+
+  ion-toolbar {
+    --background: #333; /* Color de fondo para la barra de herramientas */
+    --color: white; /* Color de texto para la barra de herramientas */
+  }

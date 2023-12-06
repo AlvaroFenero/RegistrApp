@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { firstValueFrom } from 'rxjs';
 import { IClase } from 'src/app/models/IClase';
 import { NavigationExtras, Router } from '@angular/router';
-import { ClasesService } from 'src/app/servises/clases.service';
+import { ClasesService } from 'src/app/services/clases.service';
 
 @Component({
   selector: 'app-registrar',

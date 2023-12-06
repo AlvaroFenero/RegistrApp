@@ -15,7 +15,10 @@ import { Router } from '@angular/router';
 export class GeneradorPage implements OnInit {
 
   userInfoReceived: any;
+  
   qrGenerado: any;
+
+  codigoQR: string = '';
 
   supabaseResponse: any;
 

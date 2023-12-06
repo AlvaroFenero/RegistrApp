@@ -1,0 +1,30 @@
+/* styles.scss o tu archivo de estilos personalizado */
+
+ion-header[translucent="true"] {
+    --background: #333; /* Color de fondo para la barra de herramientas */
+    --color: white; /* Color de texto para la barra de herramientas */
+  }
+  
+  ion-content[fullscreen="true"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  ion-content[fullscreen="true"] ion-content {
+    padding: 20px; /* Ajusta el espacio interno según sea necesario */
+  }
+  
+  ion-card {
+    max-width: 400px; /* Ajusta el ancho máximo del card según sea necesario */
+    margin: 20px 0; /* Ajusta el margen exterior según sea necesario */
+  }
+  
+  ion-button {
+    --color: #fff; /* Color de texto para el botón */
+    --background: #333; /* Color de fondo para el botón */
+    margin-top: 10px; /* Espacio superior entre botones */
+  }
+  

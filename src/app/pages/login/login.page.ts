@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { IUserLogin } from 'src/app/models/IUserLogin';
 import { NavigationExtras, Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
-import { UsuarioService } from 'src/app/servises/usuario.service';
+import { UsuarioService } from 'src/app/services/usuario.service';
 
 
 @Component({

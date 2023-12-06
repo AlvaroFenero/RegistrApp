@@ -1,32 +1,34 @@
-
 <ion-header>
-  <ion-toolbar>
-    <ion-title></ion-title>
+  <ion-toolbar class="custom-toolbar">
+    <ion-title>
+      <img src="assets/Logo_titulo.png" alt="Logo Título" class="logo-titulo-img">
+    </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content  >
-  <ion-grid >
-    <ion-row> 
-      <ion-col sizeLg="12" sizeMD="12" sizeXs="12" >
-        <div id="div-fondo">
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeLg="8" sizeMD="8" sizeXs="8">
+        <div id="div-fondo" class="center-content">
+          <img src="assets/Logo_2.png" alt="Logo" class="logo-img">
+
           <div>
-            <ion-input autocomplete="on" class="center-content" label="Usuario" label-placement="floating" fill="solid" placeholder="ingrese correo electronico " [(ngModel)]="userLoginModal.correo"  ></ion-input>
-            <ion-input class="center-content" label="Contraseña" type="password" label-placement="floating" fill="solid" placeholder="Ingrese contraseña" [(ngModel)]="userLoginModal.password" ></ion-input>
+            <ion-input autocomplete="on" class="center-content" label="Usuario" label-placement="floating"
+              fill="solid" placeholder="Ingrese correo electrónico" [(ngModel)]="userLoginModal.correo"></ion-input>
+            <ion-input class="center-content" label="Contraseña" type="password" label-placement="floating"
+              fill="solid" placeholder="Ingrese contraseña" [(ngModel)]="userLoginModal.password"></ion-input>
           </div>
+
           <div>
-            <!--
-              Navigación con una función.
-            -->
-            <ion-button   shape="round" color="success" (click)="userLogin(userLoginModal)" >Inicio </ion-button>
+            <ion-button shape="round" color="dark" (click)="userLogin(userLoginModal)">Iniciar Sesion</ion-button>
           </div>
+
           <div>
-            <ion-button class="botoninicio" id="butoninicio" color="secondary" shape="round"   >Registrar </ion-button>
+            <ion-button class="botoninicio" id="butoninicio" color="dark" shape="round">Registrarse</ion-button>
           </div>
+
           <div>
-            <!--
-              Navegación via HTML.
-            -->
-            <ion-button class="botonini"  id="butoninicio" shape="round" color="danger" >Olvido la contraseña</ion-button>
+            <a href="#" class="botonini" id="butoninicio">Olvidé la contraseña</a>
           </div>
         </div>
       </ion-col>

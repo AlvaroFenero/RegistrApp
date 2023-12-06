@@ -29,9 +29,10 @@ export const routes: Routes = [
   {
     path: 'generador',
     loadComponent: () => import('./pages/profesor/generador/generador.page').then( m => m.GeneradorPage)
-  },  {
-    path: 'qr',
-    loadComponent: () => import('./qr/qr.page').then( m => m.QrPage)
   },
+  // {
+  //   path: 'qr',
+  //   loadComponent: () => import('./qr/qr.page').then( m => m.QrPage)
+  // },
 
 ];
