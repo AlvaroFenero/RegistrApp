@@ -7,14 +7,14 @@
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
-    <ion-button expand="block" color="dark" (click)="volverinicio()" >
-      Volver inicio
-    </ion-button>
     <ion-button expand="block" color="dark" (click)="auto()" >
       Crear clase
     </ion-button>
     <ion-button expand="block" color="dark" (click)="viajes()" >
       Mostrar Cursos
+    </ion-button>
+    <ion-button expand="block" color="dark" (click)="volverinicio()" >
+      Cerar sesión
     </ion-button>
   </ion-content>
 </ion-menu>
@@ -28,9 +28,8 @@
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <h1 class="center-content" style="padding-bottom: 50px">Bienvenido {{ conductorInfoReceived?.name }}</h1>
   <div class="glass-content">
-    <h1 class="center-content" style="padding-bottom: 50px">Bienvenido {{ conductorInfoReceived?.name }}</h1>
     <ion-list [inset]="true">
       <ion-list-header>
         <ion-label>INFORMACION DEL PROFESOR </ion-label>

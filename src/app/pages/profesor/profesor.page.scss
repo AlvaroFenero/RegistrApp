@@ -1,8 +1,8 @@
 /* styles.scss o tu archivo de estilos personalizado */
 
 .glass-content {
-    background-color: #f0f0f0; /* Fondo gris pálido para el contenedor */
-    padding: 20px; /* Ajusta el espacio interno según sea necesario */
+    background-color: #ffffff; /* Fondo gris pálido para el contenedor */
+    padding: 30px; /* Ajusta el espacio interno según sea necesario */
     border-radius: 10px; /* Bordes redondeados para el contenedor */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
   }
@@ -16,7 +16,7 @@
   }
   
   ion-list-header {
-    background-color: #ddd; /* Fondo gris para el encabezado de la lista */
+    background-color: #000000; /* Fondo gris para el encabezado de la lista */
     font-weight: bold; /* Texto del encabezado en negrita */
   }
   
@@ -27,10 +27,15 @@
   
   ion-label {
     font-weight: bold; /* Texto de etiquetas en negrita */
-    color: #333; /* Color de texto más oscuro */
+    color: #000000; /* Color de texto más oscuro */
   }
 
   ion-toolbar {
-    --background: #333; /* Color de fondo para la barra de herramientas */
+    --background: #000000; /* Color de fondo para la barra de herramientas */
     --color: white; /* Color de texto para la barra de herramientas */
   }
+
+
+  ion-label {
+  color: white; /* Cambia el color del texto a blanco */
+}

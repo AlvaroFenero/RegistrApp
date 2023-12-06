@@ -1,7 +1,10 @@
 <ion-content [fullscreen]="true" class="ion-padding"  >
-  <ion-header >
-    <ion-toolbar>
-      <ion-title size="large">Ingreso de clase </ion-title>
+  <ion-header [translucent]="true">
+    <ion-toolbar color="dark">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/profesor"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Registrar</ion-title>
     </ion-toolbar>
   </ion-header>
   
@@ -47,13 +50,12 @@
               Navigación con una función.
             -->
             <ion-button expand="block" color="dark"  >
-              Volver inicio
+              Crear Asistencia
             </ion-button>
-            <ion-button expand="block" color="dark" >
-              Crear asistencia
+            <ion-button expand="block" color="dark" (click)="cancelar()">
+              Cancelar
             </ion-button>
-         
-       
+      
           </div>
         </div>
     
