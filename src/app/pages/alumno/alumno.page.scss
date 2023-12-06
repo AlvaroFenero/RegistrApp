@@ -1,3 +1,46 @@
 ion-back-button{
     color: #000000;
 }
+
+.caja1 {
+    text-align: center;
+    margin: 20px; /* Ajusta según sea necesario */
+    padding: 20px; /* Ajusta según sea necesario */
+    border: 1px solid #ddd; /* Borde del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: white; /* Color de fondo */
+}
+
+ion-icon {
+    font-size: 24px; /* Tamaño del ícono */
+    margin-right: 8px; /* Espacio a la derecha del ícono */
+  }
+
+  .center-content-bold {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+  .glass-content {
+    background-color: #ffffff; /* Fondo gris pálido para el contenedor */
+    padding: 30px; /* Ajusta el espacio interno según sea necesario */
+    border-radius: 10px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
+  }
+  .center-content {
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+
+  ion-label {
+    font-weight: bold; /* Texto de etiquetas en negrita */
+    color: #000000; /* Color de texto más oscuro */
+  }
+
+  ion-toolbar {
+    --background: #000000; /* Color de fondo para la barra de herramientas */
+    --color: white; /* Color de texto para la barra de herramientas */
+  }
+
+  ion-label {
+    color: white; /* Cambia el color del texto a blanco */
+  }

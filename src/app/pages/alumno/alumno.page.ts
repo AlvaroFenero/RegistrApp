@@ -26,5 +26,8 @@ export class AlumnoPage implements OnInit {
 
   ngOnInit() {
   }
+  volverinicio(){
+    this.router.navigate(['/login']);
+  }
 
 }
