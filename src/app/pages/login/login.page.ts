@@ -8,6 +8,7 @@ import { firstValueFrom } from 'rxjs';
 import { UsuarioService } from 'src/app/services/usuario.service';
 
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -24,6 +25,8 @@ export class LoginPage implements OnInit {
     correo: '',
     password: ''
   };
+
+  
 
   constructor(
     private route: Router,

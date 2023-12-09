@@ -5,11 +5,9 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content>
-  <ion-grid>
-    <ion-row>
-      <ion-col sizeLg="8" sizeMD="8" sizeXs="12">
-        <div id="div-fondo" class="center-content">
+<ion-content [fullscreen]="true">
+  <ion-card>
+          <ion-card-content>
           <img src="assets/Logo_2.png" alt="Logo" class="logo-img">
 
           <div>
@@ -30,8 +28,6 @@
           <div>
             <a href="#" class="botonini" id="butoninicio">Olvidé la contraseña</a>
           </div>
-        </div>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+      </ion-card-content>
+    </ion-card>
 </ion-content>

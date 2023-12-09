@@ -1,5 +1,7 @@
 {
   "name": "Registrapp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular-standalone"
 }
