@@ -40,20 +40,19 @@ export class RegistrarPage implements OnInit {
 
   }
 
-  async enviarDatosClase(clase: IClase){
-    this.qrResponse = await firstValueFrom(this.clasesService.putQrClases(clase.id_clase));
-    let userInfoSend: NavigationExtras = {
 
-      // Se envía el objeto userLoginModal como parámetro a la página de inicio
+
+  enviarDatosClase(claseInfo: any) {
+    console.log("claseInfo", claseInfo);
+    let claseInfoSend: NavigationExtras = {
       state: {
-        clase: clase
+        clase: claseInfo
+
       }
     }
-    this.router.navigate(['generador'], userInfoSend);
-    console.log('claseInfo:', userInfoSend);
-
+    const id_clase = claseInfo.id;
+    this.router.navigate([`clase-detalle/${id_clase}`], claseInfoSend);
   }
-
 
 
 

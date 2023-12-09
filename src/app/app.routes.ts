@@ -27,9 +27,16 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/clase/clase.page').then( m => m.ClasePage)
   },
   {
-    path: 'generador',
-    loadComponent: () => import('./pages/profesor/generador/generador.page').then( m => m.GeneradorPage)
+    path: 'clase-detalle',
+    loadComponent: () => import('./pages/registrar/clase-detalle/clase-detalle.page').then( m => m.ClaseDetallePage)
   },
+  {
+    path: 'clase-detalle/:id_clase',
+    loadComponent: () => import('./pages/registrar/clase-detalle/clase-detalle.page').then( m => m.ClaseDetallePage)
+  },
+
+  
+
   // {
   //   path: 'qr',
   //   loadComponent: () => import('./qr/qr.page').then( m => m.QrPage)

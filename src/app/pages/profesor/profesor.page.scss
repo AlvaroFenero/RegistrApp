@@ -1,12 +1,5 @@
 /* styles.scss o tu archivo de estilos personalizado */
 
-.glass-content {
-    background-color: #ffffff; /* Fondo gris pálido para el contenedor */
-    padding: 30px; /* Ajusta el espacio interno según sea necesario */
-    border-radius: 10px; /* Bordes redondeados para el contenedor */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
-  }
-  
   .center-content {
     text-align: center; /* Centra el texto horizontalmente */
   }
@@ -20,10 +13,6 @@
     font-weight: bold; /* Texto del encabezado en negrita */
   }
   
-  ion-item {
-    border: 1px solid #ccc; /* Bordes para separar los elementos de la lista */
-    margin-bottom: 10px; /* Espacio inferior entre elementos de la lista */
-  }
   
   ion-label {
     font-weight: bold; /* Texto de etiquetas en negrita */

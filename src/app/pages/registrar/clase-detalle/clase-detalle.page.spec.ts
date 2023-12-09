@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { GeneradorPage } from './generador.page';
+import { ClaseDetallePage } from './clase-detalle.page';
 
-describe('GeneradorPage', () => {
-  let component: GeneradorPage;
-  let fixture: ComponentFixture<GeneradorPage>;
+describe('ClaseDetallePage', () => {
+  let component: ClaseDetallePage;
+  let fixture: ComponentFixture<ClaseDetallePage>;
 
   beforeEach(async(() => {
-    fixture = TestBed.createComponent(GeneradorPage);
+    fixture = TestBed.createComponent(ClaseDetallePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
